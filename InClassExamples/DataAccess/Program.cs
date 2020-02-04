@@ -24,11 +24,11 @@ namespace DataAccess
             Console.WriteLine($"{num3} - {num4} = {result}");
 
             double[] allTheNumbers = new double[5];
-            allTheNumbers [0] = 1;
-            allTheNumbers [1] = 4;
-            allTheNumbers [2] = 5;
-            allTheNumbers [3] = 10;
-            allTheNumbers [4] = 20;
+            allTheNumbers[0] = 1;
+            allTheNumbers[1] = 4;
+            allTheNumbers[2] = 5;
+            allTheNumbers[3] = 10;
+            allTheNumbers[4] = 20;
 
             result = Add(allTheNumbers);
             Console.WriteLine(result);
@@ -66,7 +66,7 @@ namespace DataAccess
 
             //foreach
             sum = 0;
-            foreach (var item in values)    
+            foreach (var item in values)
             {
                 sum += item;
             }
@@ -78,7 +78,8 @@ namespace DataAccess
             return val1 - val2;
         }
 
-
-
-    }
+        static void DatabaseStuff()
+        {
+        }
+    }   
 }
