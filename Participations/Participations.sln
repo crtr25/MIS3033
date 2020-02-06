@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28010.2050
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF-Classes", "WPF-Classes\WPF-Classes.csproj", "{362BDED5-FEFF-463E-9BD7-4758C29D4C03}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClickTheButton", "ClickTheButton\ClickTheButton.csproj", "{56F0E66B-A746-4B26-8ED0-DBF23181DAB8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{362BDED5-FEFF-463E-9BD7-4758C29D4C03}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{362BDED5-FEFF-463E-9BD7-4758C29D4C03}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{362BDED5-FEFF-463E-9BD7-4758C29D4C03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56F0E66B-A746-4B26-8ED0-DBF23181DAB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56F0E66B-A746-4B26-8ED0-DBF23181DAB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56F0E66B-A746-4B26-8ED0-DBF23181DAB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56F0E66B-A746-4B26-8ED0-DBF23181DAB8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
