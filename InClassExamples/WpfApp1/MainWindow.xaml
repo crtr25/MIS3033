@@ -1,0 +1,16 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Margin="0,0,0,-17900833" Height="17901252" VerticalAlignment="Top">
+        <ListBox x:Name="LSTCharacters" HorizontalAlignment="Left" Height="274" VerticalAlignment="Top" Width="440" Margin="10,121,0,0" SelectionChanged="LSTCharacters_SelectionChanged"/>
+        <Label Content="Rick and Morty Characters" HorizontalAlignment="Left" Height="89" Margin="138,32,0,0" VerticalAlignment="Top" Width="457" FontSize="36"/>
+        <Button x:Name="btn1" Content="Do Something" HorizontalAlignment="Left" Height="36" Margin="474,339,0,0" VerticalAlignment="Top" Width="165" Click="btn1_Click"/>
+        <Image x:Name="imgCharacter" HorizontalAlignment="Left" Height="179" Margin="474,126,0,0" VerticalAlignment="Top" Width="282"/>
+
+    </Grid>
+</Window>

@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\Da
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_FileProccessing", "WPF_FileProccessing\WPF_FileProccessing.csproj", "{12EFA9C7-9FF8-4617-8117-A5F4C1249C6F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSON1_Rick_and_Morty", "WpfApp1\JSON1_Rick_and_Morty.csproj", "{FBB9743E-D8E0-4E6F-AE4D-599618FBD3B3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{12EFA9C7-9FF8-4617-8117-A5F4C1249C6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12EFA9C7-9FF8-4617-8117-A5F4C1249C6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12EFA9C7-9FF8-4617-8117-A5F4C1249C6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBB9743E-D8E0-4E6F-AE4D-599618FBD3B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBB9743E-D8E0-4E6F-AE4D-599618FBD3B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBB9743E-D8E0-4E6F-AE4D-599618FBD3B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBB9743E-D8E0-4E6F-AE4D-599618FBD3B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
