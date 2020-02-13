@@ -34,7 +34,7 @@ namespace WpfApp1
             {//async can break up a task into multiple parts and everyone can work on it at the same time
                 string json = client.GetStringAsync(apiURL).Result;
 
-                 apiInfo = JsonConvert.DeserializeObject<RickAndMortyAPIResult>(json);
+                apiInfo = JsonConvert.DeserializeObject<RickAndMortyAPIResult>(json);
 
 
             }
@@ -42,7 +42,7 @@ namespace WpfApp1
             {
                 LSTCharacters.Items.Add(character);
             }
-            
+
 
         }
 
@@ -54,8 +54,9 @@ namespace WpfApp1
 
         private void btn1_Click(object sender, RoutedEventArgs e)
         {
-        //    ResultObject selectedCharacter = (ResultObject)LSTCharacters.SelectedItem;
-        //    wbCharacterInfo.Source = new System.Uri(selectedCharacter.image);
-        //}
+            //    ResultObject selectedCharacter = (ResultObject)LSTCharacters.SelectedItem;
+            //    wbCharacterInfo.Source = new System.Uri(selectedCharacter.image);
+            //}
+        }
     }
 }
