@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_FileProccessing", "WPF_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSON1_Rick_and_Morty", "WpfApp1\JSON1_Rick_and_Morty.csproj", "{FBB9743E-D8E0-4E6F-AE4D-599618FBD3B3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameOfThrones", "GameOfThrones\GameOfThrones.csproj", "{E15AD672-6763-4D92-B10C-48D65562FA3F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{FBB9743E-D8E0-4E6F-AE4D-599618FBD3B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FBB9743E-D8E0-4E6F-AE4D-599618FBD3B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FBB9743E-D8E0-4E6F-AE4D-599618FBD3B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E15AD672-6763-4D92-B10C-48D65562FA3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E15AD672-6763-4D92-B10C-48D65562FA3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E15AD672-6763-4D92-B10C-48D65562FA3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E15AD672-6763-4D92-B10C-48D65562FA3F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
