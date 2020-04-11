@@ -1,13 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28010.2050
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF-Classes", "WPF-Classes\WPF-Classes.csproj", "{362BDED5-FEFF-463E-9BD7-4758C29D4C03}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClickTheButton", "ClickTheButton\ClickTheButton.csproj", "{56F0E66B-A746-4B26-8ED0-DBF23181DAB8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokemonParticipation", "PokemonParticipation\PokemonParticipation.csproj", "{06A44CAD-1C14-495E-9C81-EF90719CDBE0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{53C59B8F-249F-46C7-AC81-6381CB496BFC}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\..\OneDrive\Documents\Spring 2020\Programming 2\participations\HTMLPage1Participation03-31.html = ..\..\..\..\..\OneDrive\Documents\Spring 2020\Programming 2\participations\HTMLPage1Participation03-31.html
+		StyleSheet1.css = StyleSheet1.css
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

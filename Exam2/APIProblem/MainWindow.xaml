@@ -1,0 +1,17 @@
+﻿<Window x:Class="APIProblem.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:APIProblem"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="pokemonTXT" HorizontalAlignment="Left" Height="32" Margin="137,85,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="416"/>
+        <Label Content="Enter a pokemon" HorizontalAlignment="Left" Margin="10,85,0,0" VerticalAlignment="Top" Height="27" Width="112"/>
+        <Button x:Name="BTNabilities" Content="Show Pokemon Abilities" HorizontalAlignment="Left" Height="37" Margin="574,80,0,0" VerticalAlignment="Top" Width="157" Click="BTNabilities_Click"/>
+        <ListBox x:Name="LSB1" HorizontalAlignment="Left" Height="204" Margin="248,146,0,0" VerticalAlignment="Top" Width="258"/>
+        <Label Content="List of Abilities" HorizontalAlignment="Left" Height="35" Margin="115,227,0,0" VerticalAlignment="Top" Width="189"/>
+
+    </Grid>
+</Window>
